@@ -1,7 +1,7 @@
 # AI-Bitcoin-Trader
 Here lies my collection of get-rich-quick schemes to build a cryptocurrency trading bot. 
 
-*Don't actually use unless you want to lose all your money!*
+*Don't actually use unless you want to lose all of your money!*
 
 Each folder contains a different attempt.
 
