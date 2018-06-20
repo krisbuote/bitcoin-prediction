@@ -1,8 +1,10 @@
-# Reinforcement-Learning-Trader
-A Reinforcement Learning based cryptocurrency trading bot. *Don't actually use unless you want to lose all your money.*
+# AI-Bitcoin-Trader
+Here lies my collection of get-rich-quick schemes to build a cryptocurrency trading bot. 
 
-This is a rehash of code used to solve the *Gambler's Problem* in Sutton & Barto's Reinforcement Learning textbook. The code uses RL Glue implementation from Sutton's CMPUT609 course.
+*Don't actually use unless you want to lose all your money!*
 
-After completing the gambler's problem, I thought I would try my hand at the stock market ;) 
+Each folder contains a different attempt.
 
-This bot fails to make money (as expected) because RL is the wrong tool for the job!
+The RL-trader is a rehash of code used to solve the *Gambler's Problem* in Sutton & Barto's Reinforcement Learning textbook. The code uses RL Glue implementation from Sutton's CMPUT609 course. This bot fails to make money (as expected) because RL is the wrong tool for the job!
+
+The next attempt is using a Long Short Term Memory (LSTM) neural network to predict bitcoin prices. Code based on a [tutorial](http://www.jakob-aungiers.com/articles/a/Multidimensional-LSTM-Networks-to-Predict-Bitcoin-Price).
