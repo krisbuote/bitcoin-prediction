@@ -1,0 +1,3 @@
+The RL-trader is a rehash of code used to solve the Gambler's Problem in Sutton & Barto's Reinforcement Learning textbook. 
+
+The code uses RL Glue implementation from Sutton's CMPUT609 course. This bot fails to make money (as expected) because RL is the wrong tool for the job! RL requires the agent to receive a reward from the environment based on the action taken. The environment (BTC-USD price) is nearly fully independent of the agent's actions. (Not to mention the virtually infinite state and action space). I accepted this and tried to use some simple actions (Buy all, sell all, hold) to see what would happen anyway because I thought it would be fun to try!
