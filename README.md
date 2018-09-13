@@ -1,5 +1,5 @@
 # Bitcoin Prediction
-Here lies my attempts to beat the stock market and learn ML along the way.
+Here lies my attempts to beat the stock market and learn Machine Learning along the way.
 
 ***Disclaimer: Use at your own risk!***
 
