@@ -8,9 +8,11 @@ import pandas as pd
 This Script scrapes data for different cryptocurrencies.
 
 NOTE: COINS HAVE EXISTED FOR DIFFERENT PERIODS OF TIME !
+
+TODO: Pad arrays with NaN to match length of bitcoin array.
 '''
-# coins = ('bitcoin', 'ethereum', 'bitcoin-cash', 'litecoin', 'ripple', 'eos', 'stellar', 'monero', 'dash', 'ethereum-classic')
-coins = ('bitcoin','ethereum')
+# coins = ['bitcoin', 'ethereum', 'bitcoin-cash', 'litecoin', 'ripple', 'eos', 'stellar', 'monero', 'dash', 'ethereum-classic']
+coins = ['bitcoin']
 d = {}
 
 
@@ -26,14 +28,13 @@ for i in range(len(coins)):
 
     for j in range(len(price_usd)):
         price_usd_array.append(price_usd[j][1])
-#    price_usd_array = np.pad(price_usd_array)
+    # Need to pad arrays here to be of equal length for each coin
 
     d[str(coins[i])] = price_usd_array
 
-print(d)
 
 coins_df = pd.DataFrame(data=d)
-coins_df.to_csv("Daily-Coin-Prices-2013-2018")
+coins_df.to_csv("Daily-Coin-Prices-2013-2018.csv")
 
 
 # np.save("Daily-Coin-Prices-2013-2018", price_usd_array)
