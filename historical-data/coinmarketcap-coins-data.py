@@ -23,7 +23,6 @@ for i in range(len(coins)):
 
     #Only care about the USD-price data within all_data
     price_usd = all_data["price_usd"] #pull string from dict. [[time, price],...]
-    print(price_usd)
     price_usd_array = []
 
     for j in range(len(price_usd)):
